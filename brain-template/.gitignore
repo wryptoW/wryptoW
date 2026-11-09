@@ -1,0 +1,10 @@
+# 本地个人设置，不进备份
+.claude/settings.local.json
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian 的工作区状态（以后接 Obsidian 时用到）
+.obsidian/workspace*.json
