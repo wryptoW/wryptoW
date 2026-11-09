@@ -73,7 +73,7 @@ scripts/install.ps1             # 把模板复制到本地并初始化 git
 
 ## 待决定
 
-1. **日历**：原文第 9 步走 workspace-mcp + Google Cloud OAuth。如果日常日历在飞书，用本机已有的飞书日历工具写入 `wiki/meetings.md` 更省事。选定后再补 nightly 的第 4 步。
+1. **日历**：原文第 9 步走 workspace-mcp + Google Cloud OAuth。如果日常用的是飞书等其他日历，可以改用对应日历的命令行工具或 MCP 写入 `wiki/meetings.md`，免去 Google OAuth 配置。选定后再补 nightly 的第 4 步。
 2. **第二大脑放在哪**：默认 `%USERPROFILE%\brain`。
 3. **远程备份**：本地 git 只能防误改，防不了硬盘损坏。可选：在 GitHub 新建一个**私有**仓库作为 remote，手动或定期 push；或把文件夹放进 OneDrive 等同步盘。不要 push 到本公开仓库。
 4. **nightly 和 weekly 的运行时间**。
